@@ -1,0 +1,195 @@
+CRITICAL - 2024-05-30 00:18:36 --> "unrequired" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('unrequired')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AdminController.php(161): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 00:40:51 --> "sometimes" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('sometimes')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AdminController.php(161): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 00:41:02 --> "optional" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('optional')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AdminController.php(161): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 00:41:54 --> "nullable" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('nullable')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AdminController.php(161): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 00:46:22 --> Call to a member function getVar() on array
+in APPPATH\Controllers\AdminController.php on line 190.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 00:47:02 --> Call to a member function getFile() on array
+in APPPATH\Controllers\AdminController.php on line 190.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 02:52:49 --> Undefined variable $activos
+in APPPATH\Views\Administracion\adminConsultas.php on line 16.
+ 1 APPPATH\Views\Administracion\adminConsultas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activos', 'APPPATH\\Views\\Administracion\\adminConsultas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminConsultas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminConsultas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(300): view('Administracion/adminConsultas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaConsultas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 02:53:40 --> Undefined variable $inactivos
+in APPPATH\Views\Administracion\adminConsultas.php on line 31.
+ 1 APPPATH\Views\Administracion\adminConsultas.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $inactivos', 'APPPATH\\Views\\Administracion\\adminConsultas.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminConsultas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminConsultas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(300): view('Administracion/adminConsultas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaConsultas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 02:58:52 --> Undefined array key "id_usuario"
+in APPPATH\Views\Administracion\adminConsultas.php on line 22.
+ 1 APPPATH\Views\Administracion\adminConsultas.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_usuario"', 'APPPATH\\Views\\Administracion\\adminConsultas.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminConsultas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminConsultas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(302): view('Administracion/adminConsultas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaConsultas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:01:24 --> Call to undefined method App\Models\ConsultasModel::whereNotNull
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\ConsultasModel.php(11): CodeIgniter\Model->__call('whereNotNull', [...])
+ 2 APPPATH\Controllers\AdminController.php(294): App\Models\ConsultasModel->consultasActivas()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaConsultas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:02:38 --> Call to undefined method App\Models\ConsultasModel::fiandAll
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\ConsultasModel.php(15): CodeIgniter\Model->__call('fiandAll', [])
+ 2 APPPATH\Controllers\AdminController.php(295): App\Models\ConsultasModel->consultasInactivas()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaConsultas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:34:57 --> Unclosed '[' does not match '}'
+in APPPATH\Views\catalogo.php on line 12.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo', [], true)
+ 3 APPPATH\Controllers\CatalogoController.php(27): view('catalogo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CatalogoController->catalogo()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatalogoController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 16:27:44 --> syntax error, unexpected end of file
+in APPPATH\Views\catalogo.php on line 26.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo', [], true)
+ 3 APPPATH\Controllers\CatalogoController.php(27): view('catalogo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CatalogoController->catalogo()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatalogoController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 16:27:57 --> Undefined variable $categoria
+in APPPATH\Views\catalogo.php on line 7.
+ 1 APPPATH\Views\catalogo.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoria', 'APPPATH\\Views\\catalogo.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo', [], true)
+ 5 APPPATH\Controllers\CatalogoController.php(27): view('catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CatalogoController->catalogo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatalogoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 16:40:11 --> Undefined variable $seleccionado
+in APPPATH\Views\catalogo.php on line 6.
+ 1 APPPATH\Views\catalogo.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $seleccionado', 'APPPATH\\Views\\catalogo.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo', [], true)
+ 5 APPPATH\Controllers\CatalogoController.php(28): view('catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CatalogoController->catalogo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatalogoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 16:40:58 --> Undefined variable $seleccionado
+in APPPATH\Views\catalogo.php on line 6.
+ 1 APPPATH\Views\catalogo.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $seleccionado', 'APPPATH\\Views\\catalogo.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo', [], true)
+ 5 APPPATH\Controllers\CatalogoController.php(29): view('catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CatalogoController->catalogo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatalogoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 16:40:59 --> Undefined variable $seleccionado
+in APPPATH\Views\catalogo.php on line 6.
+ 1 APPPATH\Views\catalogo.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $seleccionado', 'APPPATH\\Views\\catalogo.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo', [], true)
+ 5 APPPATH\Controllers\CatalogoController.php(29): view('catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CatalogoController->catalogo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatalogoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 16:44:53 --> Undefined variable $productos
+in APPPATH\Views\catalogo.php on line 17.
+ 1 APPPATH\Views\catalogo.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Views\\catalogo.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo', [], true)
+ 5 APPPATH\Controllers\CatalogoController.php(49): view('catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CatalogoController->catalogoFiltrado()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatalogoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 16:45:16 --> Undefined variable $productos
+in APPPATH\Views\catalogo.php on line 17.
+ 1 APPPATH\Views\catalogo.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Views\\catalogo.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo', [], true)
+ 5 APPPATH\Controllers\CatalogoController.php(49): view('catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CatalogoController->catalogoFiltrado()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatalogoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 16:47:32 --> Call to a member function where() on array
+in APPPATH\Views\catalogo.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo', [], true)
+ 4 APPPATH\Controllers\CatalogoController.php(49): view('catalogo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CatalogoController->catalogoFiltrado()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatalogoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

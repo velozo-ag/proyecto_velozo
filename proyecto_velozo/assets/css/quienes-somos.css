@@ -1,0 +1,66 @@
+.quienes-somos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 20px 50px;
+    margin: auto;
+}
+
+.titulo {
+    text-align: center;
+    padding: 0 20px;
+}
+
+hr {
+    opacity: 100;
+    border: solid 1px #2b1603;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nosotros h2 {
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.nosotros hr {
+    opacity: 50%;
+    border: solid 1px #2b1603;
+    border-radius: 5px;
+    margin: 25px;
+    width: 70%;
+}
+
+.nosotros .img-fluid {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.trayecto {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+    gap: 10px;
+}
+
+.trayecto .img {
+    height: 300px;
+    width: 100%;
+    min-width: 300px;
+
+    border: solid 1px #2b1603;
+}
+
+.staff .img-fluid {
+    border: solid 1px #2b1603;
+}

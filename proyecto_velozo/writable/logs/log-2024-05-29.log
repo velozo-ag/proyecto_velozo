@@ -1,0 +1,176 @@
+CRITICAL - 2024-05-29 22:30:15 --> Invalid file: "Administracion/agregarProductos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Administracion/agregarProductos.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/agregarProductos', [], true)
+ 3 APPPATH\Controllers\AdminController.php(78): view('Administracion/agregarProductos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->formProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 22:50:25 --> Undefined variable $categorias
+in APPPATH\Views\Administracion\modificarProductos.php on line 22.
+ 1 APPPATH\Views\Administracion\modificarProductos.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\Administracion\\modificarProductos.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\modificarProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/modificarProductos', [], true)
+ 5 APPPATH\Controllers\AdminController.php(146): view('Administracion/modificarProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->modificarProducto('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 22:52:58 --> Cannot access offset of type string on string
+in APPPATH\Views\Administracion\modificarProductos.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/modificarProductos', [], true)
+ 4 APPPATH\Controllers\AdminController.php(149): view('Administracion/modificarProductos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->modificarProducto('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 22:53:17 --> Undefined array key "id_categoria"
+in APPPATH\Views\Administracion\modificarProductos.php on line 23.
+ 1 APPPATH\Views\Administracion\modificarProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_categoria"', 'APPPATH\\Views\\Administracion\\modificarProductos.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\modificarProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/modificarProductos', [], true)
+ 5 APPPATH\Controllers\AdminController.php(149): view('Administracion/modificarProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->modificarProducto('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:16:08 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Models\ProductosModel.php(36): CodeIgniter\Model->update(null, [...])
+ 4 APPPATH\Controllers\AdminController.php(178): App\Models\ProductosModel->modificarProducto(null, [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:18:54 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Models\ProductosModel.php(36): CodeIgniter\Model->update([...])
+ 5 APPPATH\Controllers\AdminController.php(178): App\Models\ProductosModel->modificarProducto(null, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:21:22 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Models\ProductosModel.php(36): CodeIgniter\Model->update(null, [...])
+ 4 APPPATH\Controllers\AdminController.php(178): App\Models\ProductosModel->modificarProducto(null, [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:23:25 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Models\ProductosModel.php(36): CodeIgniter\Model->update(null, [...])
+ 4 APPPATH\Controllers\AdminController.php(184): App\Models\ProductosModel->modificarProducto(null, [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:23:38 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Models\ProductosModel.php(36): CodeIgniter\Model->update(null, [...])
+ 4 APPPATH\Controllers\AdminController.php(184): App\Models\ProductosModel->modificarProducto(null, [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:25:26 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Models\ProductosModel.php(36): CodeIgniter\Model->update(null, [...])
+ 4 APPPATH\Controllers\AdminController.php(178): App\Models\ProductosModel->modificarProducto(null, [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:26:11 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Models\ProductosModel.php(36): CodeIgniter\Model->update(null, [...])
+ 4 APPPATH\Controllers\AdminController.php(178): App\Models\ProductosModel->actualizarProducto(null, [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:28:59 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Models\ProductosModel.php(36): CodeIgniter\Model->update(null, [...])
+ 4 APPPATH\Controllers\AdminController.php(178): App\Models\ProductosModel->actualizarProducto(null, [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:29:32 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Models\ProductosModel.php(36): CodeIgniter\Model->update(null, [...])
+ 4 APPPATH\Controllers\AdminController.php(179): App\Models\ProductosModel->actualizarProducto(null, [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:30:48 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Models\ProductosModel.php(36): CodeIgniter\Model->update(null, [...])
+ 4 APPPATH\Controllers\AdminController.php(179): App\Models\ProductosModel->actualizarProducto(null, [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:31:22 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 APPPATH\Models\ProductosModel.php(36): CodeIgniter\Model->doUpdate(null, [...])
+ 2 APPPATH\Controllers\AdminController.php(179): App\Models\ProductosModel->actualizarProducto(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:36:03 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 APPPATH\Models\ProductosModel.php(36): CodeIgniter\Model->doUpdate(null, [...])
+ 2 APPPATH\Controllers\AdminController.php(179): App\Models\ProductosModel->actualizarProducto(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:38:32 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdminController.php(179): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:38:40 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdminController.php(179): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

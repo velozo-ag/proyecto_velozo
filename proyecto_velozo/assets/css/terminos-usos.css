@@ -1,0 +1,28 @@
+.terminosyusos{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 0 5rem;
+    margin: auto;
+
+    h1{
+       text-align: center; 
+    }
+
+    p{
+        padding: 0 20px;
+        font-size: .9rem;
+    }
+
+    .accordion-header button{
+        background-color: #27120418;
+    }
+    
+    .accordion-item{
+        background-color: #27120411;
+    }
+
+    .accordion-body{
+        text-align: justify;
+    }
+}

@@ -1,0 +1,135 @@
+CRITICAL - 2024-05-27 00:12:30 --> Call to a member function move() on null
+in APPPATH\Controllers\AdminController.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 00:12:46 --> Call to a member function move() on null
+in APPPATH\Controllers\AdminController.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-27 02:16:18 --> mysqli_sql_exception: Unknown column 'baja' in 'where clause' in C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_velozo\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_velozo\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_velozo\app\Models\ProductosModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_velozo\app\Controllers\AdminController.php(56): App\Models\ProductosModel->listarProductosActivos()
+#8 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(934): App\Controllers\AdminController->tablaProductos()
+#9 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_velozo\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-27 02:16:18 --> Unknown column 'baja' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `baja` = :baja:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProductosModel.php(16): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdminController.php(56): App\Models\ProductosModel->listarProductosActivos()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-27 02:16:27 --> mysqli_sql_exception: Unknown column 'baja' in 'where clause' in C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_velozo\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_velozo\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_velozo\app\Models\ProductosModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_velozo\app\Controllers\AdminController.php(56): App\Models\ProductosModel->listarProductosActivos()
+#8 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(934): App\Controllers\AdminController->tablaProductos()
+#9 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_velozo\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-27 02:16:27 --> Unknown column 'baja' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `baja` = :baja:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProductosModel.php(16): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdminController.php(56): App\Models\ProductosModel->listarProductosActivos()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 02:23:25 --> Call to a member function move() on null
+in APPPATH\Controllers\AdminController.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 02:29:49 --> Call to a member function move() on null
+in APPPATH\Controllers\AdminController.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 02:31:18 --> Call to a member function move() on null
+in APPPATH\Controllers\AdminController.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 02:31:36 --> Call to a member function move() on null
+in APPPATH\Controllers\AdminController.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 02:36:33 --> Call to a member function move() on null
+in APPPATH\Controllers\AdminController.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 02:40:06 --> Undefined property: App\Controllers\AdminController::$input
+in APPPATH\Controllers\AdminController.php on line 96.
+ 1 APPPATH\Controllers\AdminController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$input', 'APPPATH\\Controllers\\AdminController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:16:36 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::file()
+in APPPATH\Controllers\AdminController.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:17:17 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::file()
+in APPPATH\Controllers\AdminController.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:20:35 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::file()
+in APPPATH\Controllers\AdminController.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:24:22 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::file()
+in APPPATH\Controllers\AdminController.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:25:29 --> Call to a member function move() on null
+in APPPATH\Controllers\AdminController.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

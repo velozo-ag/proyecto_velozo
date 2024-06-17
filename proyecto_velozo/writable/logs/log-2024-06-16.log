@@ -1,0 +1,381 @@
+ERROR - 2024-06-16 03:29:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' null' at line 3 in C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\proyecto_velozo\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\proyecto_velozo\system\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\proyecto_velozo\app\Models\ConsultasModel.php(35): CodeIgniter\BaseModel->paginate(15, 'num', 1)
+#7 C:\xampp\htdocs\proyecto_velozo\app\Controllers\AdminController.php(376): App\Models\ConsultasModel->paginarContactos(15, -1)
+#8 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(934): App\Controllers\AdminController->tablaConsultas()
+#9 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_velozo\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-16 03:29:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' null' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `consultas`
+WHERE usuario_id, null', [], false)
+ 2 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Models\ConsultasModel.php(35): CodeIgniter\BaseModel->paginate(15, 'num', 1)
+ 5 APPPATH\Controllers\AdminController.php(376): App\Models\ConsultasModel->paginarContactos(15, -1)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaConsultas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 13:30:26 --> Undefined variable $productos
+in APPPATH\Views\Administracion\adminCompras.php on line 35.
+ 1 APPPATH\Views\Administracion\adminCompras.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Views\\Administracion\\adminCompras.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminCompras', [], true)
+ 5 APPPATH\Controllers\AdminController.php(449): view('Administracion/adminCompras')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 13:34:25 --> Undefined variable $productos
+in APPPATH\Views\Administracion\adminCompras.php on line 35.
+ 1 APPPATH\Views\Administracion\adminCompras.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Views\\Administracion\\adminCompras.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminCompras', [], true)
+ 5 APPPATH\Controllers\AdminController.php(451): view('Administracion/adminCompras')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 14:04:09 --> Undefined variable $productos
+in APPPATH\Views\Administracion\adminCompras.php on line 35.
+ 1 APPPATH\Views\Administracion\adminCompras.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Views\\Administracion\\adminCompras.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminCompras', [], true)
+ 5 APPPATH\Controllers\AdminController.php(451): view('Administracion/adminCompras')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 14:23:36 --> Call to undefined method App\Models\DetalleFacturasModel::getAll
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\DetalleFacturasModel.php(20): CodeIgniter\Model->__call('getAll', [])
+ 2 APPPATH\Controllers\AdminController.php(450): App\Models\DetalleFacturasModel->productosCantidad()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 14:23:57 --> Undefined array key "nombre"
+in APPPATH\Models\DetalleFacturasModel.php on line 27.
+ 1 APPPATH\Models\DetalleFacturasModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Models\\DetalleFacturasModel.php', 27)
+ 2 APPPATH\Controllers\AdminController.php(450): App\Models\DetalleFacturasModel->productosCantidad()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 15:36:30 --> Undefined array key "producto_id"
+in APPPATH\Models\DetalleFacturasModel.php on line 36.
+ 1 APPPATH\Models\DetalleFacturasModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_id"', 'APPPATH\\Models\\DetalleFacturasModel.php', 36)
+ 2 APPPATH\Controllers\AdminController.php(450): App\Models\DetalleFacturasModel->productosCantidad()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 15:42:12 --> Object of class App\Models\DetalleFacturasModel could not be converted to string
+in APPPATH\Views\Administracion\adminCompras.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminCompras', [], true)
+ 4 APPPATH\Controllers\AdminController.php(455): view('Administracion/adminCompras', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 15:46:36 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\proyecto_velozo\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('detalle_factura')
+ 2 APPPATH\Models\DetalleFacturasModel.php(32): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Models\DetalleFacturasModel.php(49): App\Models\DetalleFacturasModel->ventasPorProducto('1')
+ 4 APPPATH\Controllers\AdminController.php(450): App\Models\DetalleFacturasModel->productosCantidad()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 15:47:14 --> Object of class App\Models\DetalleFacturasModel could not be converted to string
+in APPPATH\Views\Administracion\adminCompras.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminCompras', [], true)
+ 4 APPPATH\Controllers\AdminController.php(455): view('Administracion/adminCompras', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 15:56:22 --> You cannot use "getCompiledSelect()" in "App\Models\DetalleFacturasModel". This is a method of the Query Builder Class.
+in SYSTEMPATH\Model.php on line 858.
+ 1 SYSTEMPATH\Model.php(858): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable('App\\Models\\DetalleFacturasModel', 'getCompiledSelect()')
+ 2 SYSTEMPATH\Model.php(838): CodeIgniter\Model->checkBuilderMethod('getCompiledSelect')
+ 3 APPPATH\Models\DetalleFacturasModel.php(32): CodeIgniter\Model->__call('getCompiledSelect', [])
+ 4 APPPATH\Models\DetalleFacturasModel.php(48): App\Models\DetalleFacturasModel->ventasPorProducto('1')
+ 5 APPPATH\Controllers\AdminController.php(450): App\Models\DetalleFacturasModel->productosCantidad()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 16:07:11 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\Administracion\adminCompras.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminCompras', [], true)
+ 4 APPPATH\Controllers\AdminController.php(455): view('Administracion/adminCompras', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 16:19:35 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Administracion\adminCompras.php on line 37.
+ 1 APPPATH\Views\Administracion\adminCompras.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\Administracion\\adminCompras.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminCompras', [], true)
+ 5 APPPATH\Controllers\AdminController.php(455): view('Administracion/adminCompras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 16:43:08 --> Undefined variable $cantidad_total
+in APPPATH\Views\Administracion\adminCompras.php on line 20.
+ 1 APPPATH\Views\Administracion\adminCompras.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cantidad_total', 'APPPATH\\Views\\Administracion\\adminCompras.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminCompras', [], true)
+ 5 APPPATH\Controllers\AdminController.php(459): view('Administracion/adminCompras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 19:11:26 --> Undefined array key 3
+in APPPATH\Views\Administracion\adminCompras.php on line 39.
+ 1 APPPATH\Views\Administracion\adminCompras.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'APPPATH\\Views\\Administracion\\adminCompras.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminCompras', [], true)
+ 5 APPPATH\Controllers\AdminController.php(461): view('Administracion/adminCompras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-16 21:59:11 --> mysqli_sql_exception: Unknown column 'fecha_actual' in 'where clause' in C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_velozo\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_velozo\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_velozo\app\Models\FacturasModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_velozo\app\Controllers\AdminController.php(452): App\Models\FacturasModel->facturasUltimoMes()
+#8 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+#9 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_velozo\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-16 21:59:12 --> Unknown column 'fecha_actual' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `factura`
+WHERE `fecha_actual` <= :fecha_actual:
+AND `fecha_actual` >= :fecha_actual.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\FacturasModel.php(30): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdminController.php(452): App\Models\FacturasModel->facturasUltimoMes()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-16 22:00:26 --> mysqli_sql_exception: Unknown column 'fecha_actual' in 'where clause' in C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_velozo\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_velozo\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_velozo\app\Models\FacturasModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_velozo\app\Controllers\AdminController.php(452): App\Models\FacturasModel->facturasUltimoMes()
+#8 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+#9 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_velozo\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-16 22:00:26 --> Unknown column 'fecha_actual' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `factura`
+WHERE `fecha_actual` <= :fecha_actual:
+AND `fecha_actual` >= :fecha_actual.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\FacturasModel.php(30): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdminController.php(452): App\Models\FacturasModel->facturasUltimoMes()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 22:08:46 --> Undefined array key "total_ventas"
+in APPPATH\Models\DetalleFacturasModel.php on line 83.
+ 1 APPPATH\Models\DetalleFacturasModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_ventas"', 'APPPATH\\Models\\DetalleFacturasModel.php', 83)
+ 2 APPPATH\Controllers\AdminController.php(455): App\Models\DetalleFacturasModel->productosCantidad([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 23:15:53 --> Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\Administracion\adminCompras.php on line 3.
+ 1 APPPATH\Views\Administracion\adminCompras.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$input', 'APPPATH\\Views\\Administracion\\adminCompras.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminCompras', [], true)
+ 5 APPPATH\Controllers\AdminController.php(463): view('Administracion/adminCompras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 23:16:18 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\Administracion\adminCompras.php on line 3.
+ 1 APPPATH\Views\Administracion\adminCompras.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\Administracion\\adminCompras.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminCompras', [], true)
+ 5 APPPATH\Controllers\AdminController.php(463): view('Administracion/adminCompras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-16 23:29:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(`tot...', 0)
+#1 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`tot...')
+#2 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`tot...')
+#3 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`tot...', Array, false)
+#4 C:\xampp\htdocs\proyecto_velozo\app\Models\DetalleFacturasModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_velozo\app\Controllers\AdminController.php(475): App\Models\DetalleFacturasModel->ventasTotalPorFacturas(Array)
+#6 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+#7 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_velozo\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-16 23:29:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`total_producto`) AS `total_producto`
+FROM `detalle_factura`
+WHERE `factura_id` IN :factura_id:', [...], false)
+ 2 APPPATH\Models\DetalleFacturasModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\AdminController.php(475): App\Models\DetalleFacturasModel->ventasTotalPorFacturas([])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-16 23:30:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(`tot...', 0)
+#1 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`tot...')
+#2 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`tot...')
+#3 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`tot...', Array, false)
+#4 C:\xampp\htdocs\proyecto_velozo\app\Models\DetalleFacturasModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_velozo\app\Controllers\AdminController.php(475): App\Models\DetalleFacturasModel->ventasTotalPorFacturas(Array)
+#6 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+#7 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_velozo\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-16 23:30:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`total_producto`) AS `total_producto`
+FROM `detalle_factura`
+WHERE `factura_id` IN :factura_id:', [...], false)
+ 2 APPPATH\Models\DetalleFacturasModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\AdminController.php(475): App\Models\DetalleFacturasModel->ventasTotalPorFacturas([])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-16 23:31:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(`tot...', 0)
+#1 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`tot...')
+#2 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`tot...')
+#3 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`tot...', Array, false)
+#4 C:\xampp\htdocs\proyecto_velozo\app\Models\DetalleFacturasModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_velozo\app\Controllers\AdminController.php(475): App\Models\DetalleFacturasModel->ventasTotalPorFacturas(Array)
+#6 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+#7 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_velozo\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-16 23:31:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`total_producto`) AS `total_producto`
+FROM `detalle_factura`
+WHERE `factura_id` IN :factura_id:', [...], false)
+ 2 APPPATH\Models\DetalleFacturasModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\AdminController.php(475): App\Models\DetalleFacturasModel->ventasTotalPorFacturas([])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-16 23:33:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(`tot...', 0)
+#1 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`tot...')
+#2 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`tot...')
+#3 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`tot...', Array, false)
+#4 C:\xampp\htdocs\proyecto_velozo\app\Models\DetalleFacturasModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_velozo\app\Controllers\AdminController.php(475): App\Models\DetalleFacturasModel->ventasTotalPorFacturas(Array)
+#6 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+#7 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_velozo\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-16 23:33:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`total_producto`) AS `total_producto`
+FROM `detalle_factura`
+WHERE `factura_id` IN :factura_id:', [...], false)
+ 2 APPPATH\Models\DetalleFacturasModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\AdminController.php(475): App\Models\DetalleFacturasModel->ventasTotalPorFacturas([])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 23:34:34 --> Cannot use object of type stdClass as array
+in APPPATH\Models\DetalleFacturasModel.php on line 106.
+ 1 APPPATH\Controllers\AdminController.php(473): App\Models\DetalleFacturasModel->productosCantidad([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 23:35:58 --> Cannot use object of type stdClass as array
+in APPPATH\Models\DetalleFacturasModel.php on line 106.
+ 1 APPPATH\Controllers\AdminController.php(473): App\Models\DetalleFacturasModel->productosCantidad([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 23:36:07 --> Cannot use object of type stdClass as array
+in APPPATH\Models\DetalleFacturasModel.php on line 106.
+ 1 APPPATH\Controllers\AdminController.php(473): App\Models\DetalleFacturasModel->productosCantidad([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 23:38:03 --> Cannot use object of type stdClass as array
+in APPPATH\Models\DetalleFacturasModel.php on line 106.
+ 1 APPPATH\Controllers\AdminController.php(480): App\Models\DetalleFacturasModel->productosCantidad([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionCompras()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,135 @@
+CRITICAL - 2024-06-06 04:16:00 --> Illegal offset type
+in APPPATH\Controllers\FacturaController.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FacturaController->historialCompras()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FacturaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 04:17:20 --> Illegal offset type
+in APPPATH\Controllers\FacturaController.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FacturaController->historialCompras()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FacturaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 04:20:09 --> Undefined array key "precio"
+in APPPATH\Views\historialCompras.php on line 9.
+ 1 APPPATH\Views\historialCompras.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "precio"', 'APPPATH\\Views\\historialCompras.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\historialCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('historialCompras', [], true)
+ 5 APPPATH\Controllers\FacturaController.php(85): view('historialCompras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FacturaController->historialCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FacturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 04:30:10 --> Undefined array key "id_factura"
+in APPPATH\Views\historialCompras.php on line 12.
+ 1 APPPATH\Views\historialCompras.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_factura"', 'APPPATH\\Views\\historialCompras.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\historialCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('historialCompras', [], true)
+ 5 APPPATH\Controllers\FacturaController.php(89): view('historialCompras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FacturaController->historialCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FacturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 04:30:21 --> Undefined array key "correo"
+in APPPATH\Views\historialCompras.php on line 12.
+ 1 APPPATH\Views\historialCompras.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correo"', 'APPPATH\\Views\\historialCompras.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\historialCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('historialCompras', [], true)
+ 5 APPPATH\Controllers\FacturaController.php(89): view('historialCompras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FacturaController->historialCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FacturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 04:43:53 --> Undefined array key "total"
+in APPPATH\Views\historialCompras.php on line 33.
+ 1 APPPATH\Views\historialCompras.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'APPPATH\\Views\\historialCompras.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\historialCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('historialCompras', [], true)
+ 5 APPPATH\Controllers\FacturaController.php(91): view('historialCompras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FacturaController->historialCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FacturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 05:52:38 --> Cannot use object of type App\Models\PerfilesModel as array
+in APPPATH\Views\Administracion\adminUsuarios.php on line 36.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 4 APPPATH\Controllers\AdminController.php(35): view('Administracion/adminUsuarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaUsuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 05:53:06 --> Cannot use object of type App\Models\PerfilesModel as array
+in APPPATH\Views\Administracion\adminUsuarios.php on line 36.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 4 APPPATH\Controllers\AdminController.php(35): view('Administracion/adminUsuarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaUsuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 05:53:53 --> Undefined array key 2
+in APPPATH\Views\Administracion\adminUsuarios.php on line 36.
+ 1 APPPATH\Views\Administracion\adminUsuarios.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\Administracion\\adminUsuarios.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 5 APPPATH\Controllers\AdminController.php(35): view('Administracion/adminUsuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaUsuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 06:01:35 --> syntax error, unexpected token "/"
+in APPPATH\Views\Administracion\adminProductos.php on line 81.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminProductos', [], true)
+ 3 APPPATH\Controllers\AdminController.php(69): view('Administracion/adminProductos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaProductos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 06:04:32 --> Undefined array key 3
+in APPPATH\Views\Administracion\adminProductos.php on line 79.
+ 1 APPPATH\Views\Administracion\adminProductos.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'APPPATH\\Views\\Administracion\\adminProductos.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminProductos', [], true)
+ 5 APPPATH\Controllers\AdminController.php(71): view('Administracion/adminProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-06 14:23:00 --> mysqli_sql_exception: Column 'stock_minimo' cannot be null in C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_velozo\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\proyecto_velozo\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\proyecto_velozo\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto_velozo\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto_velozo\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto_velozo\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\proyecto_velozo\app\Controllers\AdminController.php(128): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+#10 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#11 C:\xampp\htdocs\proyecto_velozo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto_velozo\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-06-06 14:23:00 --> Column 'stock_minimo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `productos` (`nombre`, `imagen`, `categoria_id`, `precio`, `precio_venta`, `stock`, `stock_minimo`, `activo`) VALUES (:nombre:, :imagen:, :categoria_id:, :precio:, :precio_venta:, :stock:, :stock_minimo:, :activo:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

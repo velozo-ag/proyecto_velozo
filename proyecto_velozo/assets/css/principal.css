@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Montagu Slab;
+    src: url("../../assets/fonts/MontaguSlab-VariableFont_opsz\,wght.ttf");
+    /* src: url("../assets/fonts/MontaguSlab-VariableFont_opsz\,wght.ttf"); */
+}
+
+body {
+    font-family: "Montagu Slab", serif;
+    font-optical-sizing: none;
+    color: #2b1603;
+    background-color: #fffaf6;
+
+    overflow-x: hidden;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-seccion {
+    text-align: center;
+    margin: 15px;
+    font-size: 2.5rem;
+}
+
+.carousel .carousel-indicators button {
+    color: #2b1603;
+    background-color: #2b1603;
+}
+
+.ccontrol {
+    background-color: #2b1603;
+    border-radius: 5px;
+}
+
+.hero .breve-desc {
+    border-top: solid 1px #2b1603;
+    font-size: 0.9rem;
+}
+
+.productos-principales {
+    display: grid;
+    place-content: center;
+
+    background-color: #2b1603;
+    width: 100%;
+    height: auto;
+}
+
+.productos-principales .titulo-seccion {
+    color: #fffaf6;
+    margin-bottom: 0;
+}
+
+.producto {
+    color: #fffaf6c4;
+    background-color: #2b1603;
+    transition: all 0.2s ease-in-out;
+}
+
+.producto img {
+    border-radius: 10px;
+}
+
+.producto:hover {
+    color: #fffaf6;
+    scale: 1.01;
+    background-color: #fffaf627;
+}
+
+.boton-catalogo {
+    text-align: center;
+    margin: 10px;
+    padding: 5px 10px;
+    border: solid 1px;
+    border-radius: 15px;
+
+    text-decoration: none;
+
+    color: #6988ae;
+    transition: all .2s;
+}
+
+.boton-catalogo:hover{
+    color: #FFFAF6;
+    background-color: #6988ae;
+}
+
+.descubrenos {
+    display: gird;
+    place-content: center;
+    max-width: 1200px;
+    padding: 20px 100px;
+}
+
+p {
+    text-align: justify;
+}
+
+.tarjeta-tipos-cafe {
+    margin: auto;
+    max-width: 800px;
+    background-color: #fffaf6;
+}
+
+@media screen and (min-width: 1000px) {
+    .hero .carousel {
+        margin: 0 10rem;
+    }
+}

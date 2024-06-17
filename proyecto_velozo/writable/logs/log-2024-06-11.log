@@ -1,0 +1,77 @@
+CRITICAL - 2024-06-11 14:28:10 --> Array to string conversion
+in APPPATH\Views\carrito.php on line 43.
+ 1 APPPATH\Views\carrito.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\carrito.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito', [], true)
+ 5 APPPATH\Controllers\CarritoController.php(28): view('carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-11 14:54:51 --> Undefined array key "fecha-venta"
+in APPPATH\Views\historialCompras.php on line 49.
+ 1 APPPATH\Views\historialCompras.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha-venta"', 'APPPATH\\Views\\historialCompras.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\historialCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('historialCompras', [], true)
+ 5 APPPATH\Controllers\FacturaController.php(90): view('historialCompras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FacturaController->historialCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FacturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-11 22:16:14 --> Undefined array key "precio_stock"
+in APPPATH\Views\catalogo.php on line 29.
+ 1 APPPATH\Views\catalogo.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "precio_stock"', 'APPPATH\\Views\\catalogo.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo', [], true)
+ 5 APPPATH\Controllers\CatalogoController.php(29): view('catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CatalogoController->catalogo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatalogoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-11 23:20:17 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH\Views\nav.php on line 1.
+ 1 APPPATH\Views\nav.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$uri', 'APPPATH\\Views\\nav.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('nav')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-11 23:20:25 --> Undefined property: CodeIgniter\View\View::$url
+in APPPATH\Views\nav.php on line 1.
+ 1 APPPATH\Views\nav.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$url', 'APPPATH\\Views\\nav.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('nav')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-11 23:27:08 --> parse_url(): Argument #2 ($component) must be of type int, string given
+in APPPATH\Views\nav.php on line 29.
+ 1 APPPATH\Views\nav.php(29): parse_url('http://localhost/proyecto_velozo/catalogo', '/proyecto_velozo/catalogo')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav', [], true)
+ 5 APPPATH\Controllers\CatalogoController.php(28): view('nav')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CatalogoController->catalogo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatalogoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-11 23:27:35 --> parse_url(): Argument #2 ($component) must be of type int, string given
+in APPPATH\Views\nav.php on line 29.
+ 1 APPPATH\Views\nav.php(29): parse_url('http://localhost/proyecto_velozo/catalogo', '/proyecto_velozo/catalogo')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav', [], true)
+ 5 APPPATH\Controllers\CatalogoController.php(28): view('nav')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CatalogoController->catalogo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatalogoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

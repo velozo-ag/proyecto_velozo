@@ -1,0 +1,113 @@
+CRITICAL - 2024-05-31 15:12:20 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\proyecto_velozo\app\Controllers\CarritoController.php on line 20
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\CarritoController.php(20): view('carrito', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 15:12:56 --> Undefined variable $data
+in APPPATH\Views\carrito.php on line 2.
+ 1 APPPATH\Views\carrito.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\carrito.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito', [], true)
+ 5 APPPATH\Controllers\CarritoController.php(20): view('carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 15:13:17 --> Undefined variable $data
+in APPPATH\Views\carrito.php on line 2.
+ 1 APPPATH\Views\carrito.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\carrito.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito', [], true)
+ 5 APPPATH\Controllers\CarritoController.php(20): view('carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 15:13:26 --> Array to string conversion
+in APPPATH\Views\carrito.php on line 2.
+ 1 APPPATH\Views\carrito.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\carrito.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito', [], true)
+ 5 APPPATH\Controllers\CarritoController.php(20): view('carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 15:13:41 --> Undefined array key 0
+in APPPATH\Views\carrito.php on line 2.
+ 1 APPPATH\Views\carrito.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\carrito.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito', [], true)
+ 5 APPPATH\Controllers\CarritoController.php(20): view('carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 15:13:46 --> Array to string conversion
+in APPPATH\Views\carrito.php on line 2.
+ 1 APPPATH\Views\carrito.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\carrito.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito', [], true)
+ 5 APPPATH\Controllers\CarritoController.php(20): view('carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 15:14:08 --> Call to a member function get() on array
+in APPPATH\Views\carrito.php on line 2.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito', [], true)
+ 4 APPPATH\Controllers\CarritoController.php(20): view('carrito', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 15:14:15 --> Array to string conversion
+in APPPATH\Views\carrito.php on line 2.
+ 1 APPPATH\Views\carrito.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\carrito.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito', [], true)
+ 5 APPPATH\Controllers\CarritoController.php(20): view('carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 15:15:39 --> Array to string conversion
+in APPPATH\Views\carrito.php on line 2.
+ 1 APPPATH\Views\carrito.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\carrito.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito', [], true)
+ 5 APPPATH\Controllers\CarritoController.php(20): view('carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 18:08:02 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\CarritoController.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CarritoController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CarritoController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CarritoController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\CarritoController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 18:08:18 --> Undefined array key "logged_in"
+in APPPATH\Controllers\CarritoController.php on line 19.
+ 1 APPPATH\Controllers\CarritoController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logged_in"', 'APPPATH\\Controllers\\CarritoController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 18:14:09 --> Can't use method return value in write context
+in APPPATH\Controllers\CarritoController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

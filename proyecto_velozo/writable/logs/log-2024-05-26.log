@@ -1,0 +1,259 @@
+CRITICAL - 2024-05-26 12:45:39 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Administraion/AdminController::usuarios"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Administraion/AdminController::usuarios')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('administracion/usuarios')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('administracion/usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 12:59:57 --> Undefined variable $usuarios
+in APPPATH\Views\Administracion\adminUsuarios.php on line 17.
+ 1 APPPATH\Views\Administracion\adminUsuarios.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\Administracion\\adminUsuarios.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 5 APPPATH\Controllers\AdminController.php(16): view('Administracion/adminUsuarios')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:00:53 --> Undefined variable $usuarios
+in APPPATH\Views\Administracion\adminUsuarios.php on line 17.
+ 1 APPPATH\Views\Administracion\adminUsuarios.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\Administracion\\adminUsuarios.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 5 APPPATH\Controllers\AdminController.php(17): view('Administracion/adminUsuarios')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:01:34 --> Undefined variable $usuarios
+in APPPATH\Views\Administracion\adminUsuarios.php on line 17.
+ 1 APPPATH\Views\Administracion\adminUsuarios.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\Administracion\\adminUsuarios.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 5 APPPATH\Controllers\AdminController.php(19): view('Administracion/adminUsuarios')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:02:43 --> Undefined variable $usuarios
+in APPPATH\Views\Administracion\adminUsuarios.php on line 17.
+ 1 APPPATH\Views\Administracion\adminUsuarios.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\Administracion\\adminUsuarios.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 5 APPPATH\Controllers\AdminController.php(19): view('Administracion/adminUsuarios')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:04:22 --> Undefined variable $usuarios
+in APPPATH\Views\Administracion\adminUsuarios.php on line 17.
+ 1 APPPATH\Views\Administracion\adminUsuarios.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\Administracion\\adminUsuarios.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 5 APPPATH\Controllers\AdminController.php(19): view('Administracion/adminUsuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:06:59 --> Call to a member function get() on array
+in APPPATH\Views\Administracion\adminUsuarios.php on line 18.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 4 APPPATH\Controllers\AdminController.php(21): view('Administracion/adminUsuarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:37:29 --> Cannot access offset of type string on string
+in APPPATH\Views\Administracion\adminUsuarios.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 4 APPPATH\Controllers\AdminController.php(22): view('Administracion/adminUsuarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:39:57 --> Cannot access offset of type string on string
+in APPPATH\Views\Administracion\adminUsuarios.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 4 APPPATH\Controllers\AdminController.php(22): view('Administracion/adminUsuarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:42:26 --> Cannot access offset of type string on string
+in APPPATH\Views\Administracion\adminUsuarios.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 4 APPPATH\Controllers\AdminController.php(22): view('Administracion/adminUsuarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:42:37 --> Attempt to read property "id_usuario" on string
+in APPPATH\Views\Administracion\adminUsuarios.php on line 19.
+ 1 APPPATH\Views\Administracion\adminUsuarios.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_usuario" on string', 'APPPATH\\Views\\Administracion\\adminUsuarios.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 5 APPPATH\Controllers\AdminController.php(22): view('Administracion/adminUsuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:42:52 --> Cannot access offset of type string on string
+in APPPATH\Views\Administracion\adminUsuarios.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 4 APPPATH\Controllers\AdminController.php(22): view('Administracion/adminUsuarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:43:56 --> Undefined variable $activos
+in APPPATH\Views\Administracion\adminUsuarios.php on line 17.
+ 1 APPPATH\Views\Administracion\adminUsuarios.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activos', 'APPPATH\\Views\\Administracion\\adminUsuarios.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 5 APPPATH\Controllers\AdminController.php(22): view('Administracion/adminUsuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:44:20 --> Cannot access offset of type string on string
+in APPPATH\Views\Administracion\adminUsuarios.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 4 APPPATH\Controllers\AdminController.php(22): view('Administracion/adminUsuarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 13:44:54 --> Cannot access offset of type string on string
+in APPPATH\Views\Administracion\adminUsuarios.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 4 APPPATH\Controllers\AdminController.php(22): view('Administracion/adminUsuarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 16:22:58 --> The route for "/usuarios" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/usuarios')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\AdminController.php(32): redirect('/usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->bajaUsuario('2')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 16:23:16 --> The route for "usuarios" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('usuarios')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\AdminController.php(32): redirect('usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->bajaUsuario('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 16:45:05 --> Undefined variable $session
+in APPPATH\Views\Administracion\adminUsuarios.php on line 61.
+ 1 APPPATH\Views\Administracion\adminUsuarios.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\Administracion\\adminUsuarios.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminUsuarios', [], true)
+ 5 APPPATH\Controllers\AdminController.php(24): view('Administracion/adminUsuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaUsuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 19:04:48 --> Invalid file: "adminProductos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminProductos.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('adminProductos', [], true)
+ 3 APPPATH\Controllers\AdminController.php(46): view('adminProductos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaProductos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 19:06:41 --> Undefined variable $activos
+in APPPATH\Views\Administracion\adminProductos.php on line 18.
+ 1 APPPATH\Views\Administracion\adminProductos.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activos', 'APPPATH\\Views\\Administracion\\adminProductos.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminProductos', [], true)
+ 5 APPPATH\Controllers\AdminController.php(46): view('Administracion/adminProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 19:11:07 --> Undefined variable $activos
+in APPPATH\Views\Administracion\adminProductos.php on line 26.
+ 1 APPPATH\Views\Administracion\adminProductos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activos', 'APPPATH\\Views\\Administracion\\adminProductos.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\adminProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/adminProductos', [], true)
+ 5 APPPATH\Controllers\AdminController.php(46): view('Administracion/adminProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->tablaProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 19:21:55 --> Invalid file: "Administracion/agregarProductos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Administracion/agregarProductos.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/agregarProductos', [], true)
+ 3 APPPATH\Controllers\AdminController.php(64): view('Administracion/agregarProductos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->formProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 22:19:50 --> Undefined variable $categorias
+in APPPATH\Views\Administracion\agregarProductos.php on line 21.
+ 1 APPPATH\Views\Administracion\agregarProductos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\Administracion\\agregarProductos.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Administracion\\agregarProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Administracion/agregarProductos', [], true)
+ 5 APPPATH\Controllers\AdminController.php(73): view('Administracion/agregarProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->formProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 22:57:39 --> Call to a member function move() on null
+in APPPATH\Controllers\AdminController.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 23:00:11 --> Call to a member function move() on null
+in APPPATH\Controllers\AdminController.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 23:00:32 --> Call to a member function move() on null
+in APPPATH\Controllers\AdminController.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 23:53:33 --> Call to a member function move() on null
+in APPPATH\Controllers\AdminController.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->nuevoProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

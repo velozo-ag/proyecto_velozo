@@ -1,0 +1,79 @@
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 1200px;
+  margin: auto;
+}
+
+.descripcion {
+  grid-area: desc;
+
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2b1603;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+.formulario-ubicacion {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: none;
+  width: 100%;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+
+  input,
+  textarea {
+    border: none;
+    border-bottom: solid 2px #2b1603c4;
+
+    background-color: initial;
+    padding: 20px 10px;
+    margin: 10px 0;
+    transition: all 0.05s ease-in;
+  }
+
+  input {
+    height: 25px;
+  }
+  textarea {
+    max-height: 100px;
+    min-height: 100px;
+  }
+
+  input:hover,
+  textarea:hover {
+    color: #2b1603;
+    border-bottom: solid 2px #2b1603;
+  }
+}
+
+.boton-enviar {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+
+  border: none;
+  background-color: #2b1603c4;
+  color: #fffaf6;
+
+  transition: all 0.05s ease-in;
+}
+
+.boton-enviar:hover {
+  background-color: #2b1603;
+}

@@ -1,0 +1,21 @@
+CRITICAL - 2024-06-04 23:24:49 --> Call to a member function destroy() on array
+in APPPATH\Controllers\CarritoController.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->removerCarritoCompleto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-04 23:27:18 --> Call to a member function destroy() on array
+in APPPATH\Controllers\CarritoController.php on line 104.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->removerCarritoCompleto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-04 23:27:29 --> Call to a member function set() on array
+in APPPATH\Controllers\CarritoController.php on line 104.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->removerCarritoCompleto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-04 23:27:38 --> Can't use method return value in write context
+in APPPATH\Controllers\CarritoController.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

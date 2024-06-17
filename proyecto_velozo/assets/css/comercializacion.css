@@ -1,0 +1,56 @@
+.comercializacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 20px 70px;
+    margin: auto;
+}
+
+.comercializacion .card {
+    background-color: #fffaf6;
+    border-color: #fffaf6;
+}
+
+.comercializacion .img-fluid {
+    border-radius: 10px;
+}
+
+.comercializacion h3 {
+    padding: 0 20px;
+    font-size: 1.4rem;
+}
+
+.separacion {
+    opacity: 100;
+    border: solid 1px #2b1603;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: start;
+}
+
+.comercializacion p {
+    max-width: 1200px;
+    text-align: justify;
+}
+
+.imagen-entrega {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.imagen-envios {
+    height: 100px;
+    min-width: 140px;
+    object-fit: cover;
+}
+
+.imagen-pagos {
+    height: 50px;
+    object-fit: cover;
+}

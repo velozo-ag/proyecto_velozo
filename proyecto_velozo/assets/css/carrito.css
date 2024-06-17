@@ -1,0 +1,83 @@
+.carrito {
+    td {
+        position: inherit;
+        height: 100px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        min-height: 60vh;
+
+        h5{
+            justify-self: center;
+            margin: 0;
+        }
+
+        .table{
+            margin-bottom: 0;
+        }
+    }
+
+    .contenido {
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+
+        .boton,
+        span {
+            padding: 5px 10px;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .boton {
+            border: solid 1px;
+            border-radius: 2px;
+            color: #2b16038d;
+            transition: all .1s;
+        }
+
+        .boton:hover{
+            color: #2b1603;
+        }
+    }
+
+    .navegacion {
+        width: 100%;
+        text-align: end;
+        margin: 15px 0;
+        
+        a {
+            padding: 5px;
+
+            border: solid 1px;
+            border-radius: 2px;
+            color: #2b1603;
+            
+            text-decoration: none;
+            transition: all 0.1s;
+        }
+
+        a:hover {
+            color: #fffaf6;
+            background-color: #2b1603;
+            border-color: #2b1603;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            list-style: none;
+            
+            li{
+                margin-left: 5px;
+            }
+        }
+    }
+
+
+}

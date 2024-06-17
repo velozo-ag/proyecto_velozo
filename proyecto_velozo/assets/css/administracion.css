@@ -1,0 +1,156 @@
+.administracion {
+    margin: 0 15%;
+
+    hr{
+        margin-top: 0;
+        border-color: #2b1603;
+    }
+
+    .recaudacion{
+        font-size: .9rem;
+
+        span{
+            font-weight: 600;
+            font-size: 2rem;
+        }
+    }
+
+    .periodo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        list-style: none;
+        padding: 0;
+
+        li{
+            margin:0 5px;
+            color: #2b1603ae;
+        }
+
+        a{
+            color: #2b1603ae;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: #2b1603;
+        }
+
+        .selec{
+            color: #2b1603;
+            border-bottom: solid 2px #2b1603;
+            border-radius: 2px;
+        }
+    }
+
+    .navegacion {
+        padding: 15px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            justify-self: start;
+            align-self: center;
+            color: #2b16038d;
+            transition: all 0.1s;
+        }
+
+        a:hover {
+            color: #2b1603;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: end;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+        }
+        
+        li{
+            margin: 5px;
+            margin-right: 0;
+        }
+
+        .boton {
+            padding: 5px 15px;
+            text-decoration: none;
+            border: solid 1px;
+            border-radius: 2px;
+            transition: all 0.1s;
+            min-width: 100px;
+        }
+
+        .nuevo-prod {
+            color: #2b1603;
+        }
+
+        .nuevo-prod:hover {
+            color: #fffaf6;
+            background-color: #2b1603;
+            border-color: #2b1603;
+        }
+
+        .nuevo-cat {
+            color: #2b16038d;
+        }
+        .nuevo-cat:hover {
+            color: #fffaf6;
+            background-color: #2b16038d;
+            border-color: #2b16038d;
+        }
+
+        .derecha{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+    }
+
+    .table {
+        margin-bottom: 30px;
+
+        caption {
+            text-align: center;
+            caption-side: top;
+
+            font-weight: 600;
+
+            border-bottom: solid 1px;
+            color: #2b1603;
+
+            background-color: #f7eadf;
+        }
+
+        th {
+            font-weight: 600;
+        }
+
+        td,
+        th {
+            background-color: #fffaf6;
+            border-color: #2b1603;
+        }
+
+        b {
+            font-weight: 500;
+        }
+
+        .leido td{
+            color: #2b1603a1;
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .administracion {
+        margin: 0 5%;
+
+        .des {
+            display: none;
+        }
+    }
+}

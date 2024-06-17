@@ -1,0 +1,20 @@
+CRITICAL - 2024-05-28 02:13:51 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\ProductosModel.php(32): CodeIgniter\Model->update('2', [...])
+ 4 APPPATH\Controllers\AdminController.php(140): App\Models\ProductosModel->bajaProducto('2')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->bajaProducto('2')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 02:15:21 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\ProductosModel.php(32): CodeIgniter\Model->update('1', [...])
+ 4 APPPATH\Controllers\AdminController.php(140): App\Models\ProductosModel->bajaProducto('1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->bajaProducto('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

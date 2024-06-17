@@ -1,0 +1,35 @@
+CRITICAL - 2024-06-05 23:03:03 --> Call to undefined function App\Controllers\calcularTotal()
+in APPPATH\Controllers\CarritoController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 23:03:17 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\CarritoController.php on line 116.
+ 1 APPPATH\Controllers\CarritoController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\CarritoController.php', 116)
+ 2 APPPATH\Controllers\CarritoController.php(25): App\Controllers\CarritoController->calcularTotal()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->carrito()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 23:46:57 --> Array to string conversion
+in APPPATH\Controllers\CarritoController.php on line 70.
+ 1 APPPATH\Controllers\CarritoController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\CarritoController.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->agregarEnCarrito('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 23:47:07 --> Array to string conversion
+in APPPATH\Controllers\CarritoController.php on line 70.
+ 1 APPPATH\Controllers\CarritoController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\CarritoController.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->agregarEnCarrito('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 23:47:18 --> Array to string conversion
+in APPPATH\Controllers\CarritoController.php on line 70.
+ 1 APPPATH\Controllers\CarritoController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\CarritoController.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->agregarEnCarrito('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
